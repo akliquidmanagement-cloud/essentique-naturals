@@ -2,7 +2,7 @@
   "name": "essentique-naturals",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://akliquidmanagement-cloud.github.io/essentique_naturals",
+  "homepage": "https://akliquidmanagement-cloud.github.io/essentique-naturals",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
