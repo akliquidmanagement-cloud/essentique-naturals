@@ -2,23 +2,31 @@
   "name": "essentique-naturals",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://akliquidmanagement-cloud.github.io/essentique-naturals",
+  "homepage": "https://akliquidmanagement-cloud.github.io/essentique_naturals",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview --port 5173",
+    "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "npm run build && git add dist -f && git commit -m 'Deploy' && git subtree push --prefix dist origin gh-pages"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.14",
+    "@vitejs/plugin-react": "^5.1.0",
+    "autoprefixer": "^10.4.21",
     "gh-pages": "^5.0.0",
-    "postcss": "^8.4.24",
-    "tailwindcss": "^3.4.8",
-    "vite": "^5.0.0"
-  }
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.18",
+    "vite": "^5.4.21"
+  },
+  "description": "This project is a ready-to-run starter site for **Essentique Naturals** (brand of AK Liquid Management).",
+  "main": "tailwind.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
 }
+
